@@ -1,0 +1,50 @@
+
+h1{
+    font-size: 2rem;
+    background-color: green;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: sans-serif;
+   line-height: normal;
+   color: #0f0e0ebb;
+   
+    
+   
+}
+html{
+    background-color: gainsboro;
+    
+}
+.text1{
+    text-align: center;
+}
+
+.form1{
+    background-color: white;
+   border: solid;
+   margin: auto;
+   width: 50%;/* percent is relative to the parent width*/
+   height: auto;
+}
+.formcontent{
+    margin:1rem;
+}
+
+#button1{
+background-color: rgb(80, 219, 38);
+}
+.txt{
+    color: rgb(137, 139, 0);  
+}
+.input1{
+    width: 90%;
+    margin-bottom: 1rem;
+   
+}
+textarea{
+    width: 50%;  
+}
+
