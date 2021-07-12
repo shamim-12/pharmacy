@@ -1,25 +1,32 @@
 
-h1{
-    font-size: 2rem;
-    background-color: green;
-}* {
+body{
+     background-color: gainsboro;
+
+}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1rem;
     font-family: sans-serif;
    line-height: normal;
-   color: #0f0e0ebb;
-   
-    
-   
+   color: #0f0e0ebb;   
 }
-html{
-    background-color: gainsboro;
-    
+
+ .bodyContent{
+    font-size:2rem;
 }
+
+h1{
+    font-size: 4rem;
+    background-color: green;
+    color: aliceblue;
+    margin:1rem;
+}
+
 .text1{
     text-align: center;
+    font-size: 4rem;
+    color: rgb(13, 228, 49);
 }
 
 .form1{
@@ -31,20 +38,39 @@ html{
 }
 .formcontent{
     margin:1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #button1{
 background-color: rgb(80, 219, 38);
+margin-top: 1rem;
+margin-bottom: 1rem;
+padding: 0.5rem;
+color: aliceblue;
 }
 .txt{
     color: rgb(137, 139, 0);  
+    margin-top: 1rem;;
 }
 .input1{
     width: 90%;
     margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
    
 }
 textarea{
     width: 50%;  
 }
 
+footer{
+    margin-top: 2rem ;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    font-size: 62.5%;
+}

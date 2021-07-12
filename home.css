@@ -4,9 +4,21 @@ body{
     flex-direction: column;
     margin:1rem;
 }
+header{
+    flex: 1 20rem;
+}
+
+main{
+    flex :2 ;
+}
+footer{
+    flex : 1 ;
+}
 h1{
     font-size: 4rem;
     background-color: green;
+    color:aliceblue;
+    padding:2rem;
 }
 .headerbody2{
     display: flex;
@@ -16,17 +28,30 @@ h1{
 .searchtab{
     border-radius: 1.5rem;
     outline:0;
+    width:30%;
+    padding: 0rem 1rem;
+    margin: 0;
+    
+   
+}
+.headerlist{
+    display: flex;
+    flex-wrap: wrap;
 }
 ul{
     list-style: none;
+
 }
+
 
  a{
 text-decoration: none;
 background-color: rgb(80, 219, 38); 
 border:0.1rem solid  rgb(145, 230, 18);
 border-radius:0.5rem;
-padding: 0.5rem;;
+padding: 0.5rem;
+color: aliceblue;
+
 
 }
 li{
@@ -43,15 +68,36 @@ a:hover,nav a:active{
 }
 .footerbody{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-top: 2rem;
+    line-height: 1.5rem;
 }
 
 
 h3{
     text-align: center;
    background-color: rgb(80, 219, 38); 
-   width:40%
+   width:60vh;
+   color:aliceblue;
+   margin-bottom: 2rem;
+}
+.footersection1{
+    display: flex; 
+    flex:1;
+    flex-wrap: wrap;
+    background-color:gainsboro;
+    margin-right: 2rem;
+    padding: 2rem;
+}
+#contact{
+    flex:1;
+    background-color:gainsboro ;
+    margin-left:2rem ;
+    padding: 2rem;
+    
 }
 
 
@@ -66,10 +112,14 @@ html{
     box-sizing: border-box;
     font-size: 1.6rem;
     font-family: sans-serif;
-    background-color: gainsboro;
+    
    line-height: normal;
    color: #0f0e0ebb;
    
 }
 
-
+.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}

@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name ="Description" content="this form contains user credentials" />  
+    <link rel = "icon"   href= "icons8-hospital-3-24.png">
     <link rel="stylesheet" href="./form.css"/>
-   <title>form</title>
+   <title>Registration form</title>
 </head>
 
 <body>
+  <div class = 'bodyContent'>
     <main>
    <section class = 'body1'>
     <header>
@@ -18,72 +20,53 @@
     </header>
     <main id ='main1'>
           <h2 class = "text1" > REGISTER WITH US</h2>
-            <!-- <h1 class = "text1">ORDER YOUR PRESCRIPTION</h1>-->
-       
-           <div class = 'form1 '>
+     <div class = 'form1 '>
                
         <form>
             <div class ="formcontent">
             <label class ='txt' for=" firstname">FIRST NAME </label>
-            <br>
            <input type='text' id='firstname'  class ='input1' placeholder="FIRST NAME" />
-            <br>
+
             <label class ='txt'   for="lastname">LAST NAME</label>
-            <br>
             <input type='text'   id='lastname' class ='input1' placeholder="LAST NAME ">
-            <br>
             <label   class ='txt'>EMAIL</label>
-            <br>
+            
             <input type='email'  class ='input1' placeholder="EMAIL">
-            <br>
+        
             <label class = "txt"   for ="location">LOCATION</label>
-            <br>
+            
             <input type ="text"  class ='input1' placeholder="location">
-            <br>
-            <!--
-            <label class ="txt"  >DOCTOR'S PRESCRIPTION</label>
-            <BR>
-             <INPUT TYPE ="TEXT"  class ='input1'  placeholder="prescription">   
-            <br>
-            -->
+            
             <label class ='txt'  >PHONE NUMBER</label>
-            <br>
+          
             <input type="number"   class ='input1'  placeholder="PHONE NUMBER">
-            <br>
+            
             <label class ='txt'  >PASSWORD</label>
-            <br>
+            
             <input type="password" class ='input1' 
              placeholder=" PASSWORD" title = "password should be atleast 8 characters long ">
-            <br>
+            
             <label class ='txt' >GENDER</label>
-            <br>
+        
             <select name ="gender" class ="input1">
               <option value ="gender">gender</option>
               <option value="female">F</option>
               <option value = "male">M</option> 
             </select>
-            <br>
-      <!--      <label class ='txt'>MESSAGE</label>
-            <br>
-            <textarea placeholder="MESSAGE"
-            rows="20"
-            >
-             </textarea> 
-            <br> -->
+          
             <button id = "button1" class = 'input1' type = "submit">SUBMIT</button>
-          <!--    <button id = "button1" class ='input1' type="submit"> ORDER</button> -->
             </div>
         </form>
     </div>
     <script src="index.js"></script> 
     
     </main>    
-     <footer class='text1'>
+     <footer>
         <p>&copy; 2021 Simple Contact Form All Rights Reserved | Design by Shamie Enterprises </p>
     </footer>
     
 </section>
-
+</div>
 </body>
 
 </html>
